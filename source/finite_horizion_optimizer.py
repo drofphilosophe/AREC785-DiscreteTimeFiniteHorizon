@@ -226,7 +226,9 @@ class finite_horizon :
         return sval - cval
             
         
-    
+#####################
+## Sample code to run the solver
+#####################
 x=finite_horizon()
 x.backwards_induct()
 x.forward_simulate(20)
