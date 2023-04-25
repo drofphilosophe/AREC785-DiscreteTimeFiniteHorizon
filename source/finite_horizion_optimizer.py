@@ -232,6 +232,8 @@ class finite_horizon :
 x=finite_horizon()
 x.backwards_induct()
 x.forward_simulate(20)
-for sval in range(0,101) :
-    print("State:",sval,"Costate:",x.compute_costate(sval,0))
+
+#Computing costates as below not required for this problem set
+#for sval in range(0,101) :
+#    print("State:",sval,"Costate:",x.compute_costate(sval,0))
     
